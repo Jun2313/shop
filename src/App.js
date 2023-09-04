@@ -1,5 +1,4 @@
 import {  useState } from "react";
-
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Button, Navbar, Container, Nav } from "react-bootstrap";
@@ -7,7 +6,6 @@ import data from "./data";
 import Set01 from "./component/set01";
 import Set02 from "./component/set02";
 import Set03 from "./component/set03";
-
 
 import { Routes,Route, Link, useNavigate } from "react-router-dom";
 import Cart from "./routes/Cart";
